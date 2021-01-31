@@ -98,6 +98,8 @@ The code takes an input of the number of nurses and number of number of days and
 
 Nurse Scheduling by hybrid QA can be used in hospitals to minimize operations as well as maximize the satisfaction of the nursing teams. Volkswagen currently uses D-Wave’s hybrid solver to optimize its paint shop scheduling applications. Hospitals can follow this example and can use our DQM nurse scheduling solution to boost their organizational efficiency.  Other industries also could follow and use this as a solution to their resource allocation problem and maximize their productivity of their workforce. 
 
+**We tried to satisfy all the mentioned constraints but due to "time-constraints" we were able to implement the obligatory hard constraints. However, we are still motivated to work on the implementation of all the constraints in the future.**
+
 **References:**
 1)	https://www.nature.com/articles/s41598-019-49172-3
 2)	https://github.com/dwave-examples/nurse-scheduling
