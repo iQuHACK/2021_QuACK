@@ -4,7 +4,7 @@
 
 **Problem Statement:**
 
-We performed DQM (Discrete Quadratic Model) implementation of Nurse Scheduling Model developed by Ikeda, Nakamura and Humble (INH) using hybrid quantum annealing. 
+We performed DQM (Discrete Quadratic Model) implementation of Nurse Scheduling Problem which is a standard problem in Operations Research.
 The objective of the NSP (Nurse Scheduling problem) is to find the optimal way of assigning shifts and rests to nurses to ensure maximum productivity and satisfaction. 
 
 For the INH NSP we had to assign nurses to shifts complying by three constraints: 
@@ -20,7 +20,7 @@ Ensuring equality of work and efficiency of the nursing team
 This is an important problem to solve for service-dependent large organizations where workforce management takes top priority for it to function. And for a hospital it is critical that it is staffed sufficiently with a satisfied workforce as a deviation from optimum management means a matter of life and death. 
 For this problem, the hard constraints are obligatory to be met while we try to minimize the penalty cost for violating the soft constraint meaning that the soft nurse constraint energy can be non-zero whereas the hard constraint energies must be zero.
 
-The nurse scheduling problem is a Non-deterministic Polynomial Time Hard Problem. (NP-hard problem) This means with the increase of configuration size it becomes difficult to find a feasible solution to this problem. This is where hybrid quantum annealing methods comes in to improve on the classical methods of scheduling. 
+The nurse scheduling problem is a Non-deterministic Polynomial Time Hard Problem. (NP-hard problem) This means with the increase of configuration size it becomes very difficult to find a feasible solution to this problem. This is where hybrid quantum annealing methods comes in to improve on the classical methods of scheduling. 
 
 This read me contains a holistic overview of the problem and the approaches we took to solve it. 
 
