@@ -104,9 +104,8 @@ For 11 days and 3 nurses:
 | Nurse 2 | X |   |  X |   |  X |   | X  |   | X |   | X  |
 
 For 4 days and 3 nurses:
-
 | Day     | 0 | 1 | 2 | 3 | 
-| :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: |
 | Nurse 0 |   | X |   |  X |
 | Nurse 1 |   |  X |   |  X | 
 | Nurse 2 | X |   |  X |   |  
