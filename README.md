@@ -95,12 +95,22 @@ for p0, p1 in G.edges:
 The code takes an input of the number of nurses and number of number of days and gives an output of an optimized schedule. 
 
 **Demo Results**
-For 10 Days:
+
+For 11 days and 3 nurses:
 | Day     | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Nurse 0 |   | X |   |  X |   | X |   | X |   | X |   |
 | Nurse 1 |  X |   | X  |   | X |   | X |   |X   |   | X |
 | Nurse 2 | X |   |  X |   |  X |   | X  |   | X |   | X  |
+
+For 4 days and 3 nurses:
+
+| Day     | 0 | 1 | 2 | 3 | 
+| :---: | :---: | :---: | :---: |
+| Nurse 0 |   | X |   |  X |
+| Nurse 1 |   |  X |   |  X | 
+| Nurse 2 | X |   |  X |   |  
+
 
 **Other Applications:**
 
