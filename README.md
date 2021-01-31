@@ -94,6 +94,14 @@ for p0, p1 in G.edges:
 
 The code takes an input of the number of nurses and number of number of days and gives an output of an optimized schedule. 
 
+**Demo Results**
+For 10 Days:
+| Day     | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Nurse 0 |   | X |   |  X |   | X |   | X |   | X |   |
+| Nurse 1 |  X |   | X  |   | X |   | X |   |X   |   | X |
+| Nurse 2 | X |   |  X |   |  X |   | X  |   | X |   | X  |
+
 **Other Applications:**
 
 Nurse Scheduling by hybrid QA can be used in hospitals to minimize operations as well as maximize the satisfaction of the nursing teams. Volkswagen currently uses D-Wave’s hybrid solver to optimize its paint shop scheduling applications. Hospitals can follow this example and can use our DQM nurse scheduling solution to boost their organizational efficiency.  Other industries also could follow and use this as a solution to their resource allocation problem and maximize their productivity of their workforce. 
