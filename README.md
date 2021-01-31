@@ -36,7 +36,8 @@ where there are N discrete variables with  n_i cases each.
 
 **Hybrid Solvers**
 Hybrid solvers include the use of both CPU and QPU to solve a problem. Hybrid solvers ensure the optimum use of the QPU and delegate other tasks to the CPU and thus ensuring faster results and drastically increase the scope for the configuration space of the problems that we are solving. 
-#Formulation of the DQM
+
+**Formulations of the DQM**
 
 hard nurse constraint: no consecutive shifts for a nurse
 ```bash
