@@ -15,6 +15,7 @@ Ensuring the service of the nursing team
 3)	soft nurse constraint: nurses should have “approximately” even schedule (the “softness” of the constraint is due to the approximation) ;
 Ensuring equality of work and efficiency of the nursing team
 
+**Utility of Concept**
 This is an important problem to solve for service-dependent large organizations where workforce management takes top priority for it to function. And for a hospital it is critical that it is staffed sufficiently with a satisfied workforce as a deviation from optimum management means a matter of life and death. 
 For this problem, the hard constraints are obligatory to be met while we try to minimize the penalty cost for violating the soft constraint meaning that the soft nurse constraint energy can be non-zero whereas the hard constraint energies must be zero.
 
@@ -37,7 +38,7 @@ where there are N discrete variables with  n_i cases each.
 **Hybrid Solvers**
 Hybrid solvers include the use of both CPU and QPU to solve a problem. Hybrid solvers ensure the optimum use of the QPU and delegate other tasks to the CPU and thus ensuring faster results and drastically increase the scope for the configuration space of the problems that we are solving. 
 
-**Formulations of the DQM**
+**Technical Specifications**
 
 hard nurse constraint: no consecutive shifts for a nurse
 ```bash
