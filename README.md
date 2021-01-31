@@ -31,6 +31,10 @@ $
 E(\bf{x})= \sum_{i=1}^N \sum_{u=1}^{n_i} a_{i,u} x_{i,u}+ \sum_{i=1}^N \sum_{j=i+1}^N \sum_{u=1}^{n_i} \sum_{v=1}^{n_j} b_{i,j,u,v} x_{i,u} x_{j,v}+ c
 $
 ```
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=E(\bf{x})= \sum_{i=1}^N \sum_{u=1}^{n_i} a_{i,u} x_{i,u}+ \sum_{i=1}^N \sum_{j=i+1}^N \sum_{u=1}^{n_i} \sum_{v=1}^{n_j} b_{i,j,u,v} x_{i,u} x_{j,v}+ c,">
+</p>
+
 where there are N discrete variables with  n_i cases each. 
 
 **Hybrid Solvers**
