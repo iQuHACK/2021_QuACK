@@ -2,7 +2,7 @@
 
 **Team QuACK**
 
-**Problem Statement**
+**Problem Statement:**
 
 We performed DQM (Discrete Quadratic Model) implementation of Nurse Scheduling Model developed by Ikeda, Nakamura and Humble (INH) using hybrid quantum annealing. 
 The objective of the NSP (Nurse Scheduling problem) is to find the optimal way of assigning shifts and rests to nurses to ensure maximum productivity and satisfaction. 
@@ -24,7 +24,7 @@ The nurse scheduling problem is a Non-deterministic Polynomial Time Hard Problem
 
 This read me contains a holistic overview of the problem and the approaches we took to solve it. 
 
-**Discrete Quadratic Model (DQM)**
+**New Approach: Discrete Quadratic Model (DQM)**
 
 The DQM is a quadratic polynomial which takes discrete variables such as {yellow, red, green} or {6.77, 3.45, 33.44}. Using DQM, encoding for discrete variable problems has become easier. The change from binary variables of BQM to discrete variables opens the door to solve new types of problems using a quantum computer. 
 The DQM function can be represented by a general form of:
@@ -91,9 +91,11 @@ for p0, p1 in G.edges:
 
 
 **Code Input and Output**
+
 The code takes an input of the number of nurses and number of number of days and gives an output of an optimized schedule. 
 
 **Applications:**
+
 Nurse Scheduling by hybrid QA can be used in hospitals to minimize operations as well as maximize the satisfaction of the nursing teams. Volkswagen currently uses D-Wave’s hybrid solver to optimize its paint shop scheduling applications. Hospitals can follow this example and can use our DQM nurse scheduling solution to boost their organizational efficiency.  Other industries also could follow and use this as a solution to their resource allocation problem and maximize their productivity of their workforce. 
 
 **References:**
