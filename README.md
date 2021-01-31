@@ -27,7 +27,9 @@ This read me contains a holistic overview of the problem and the approaches we t
 The DQM is a quadratic polynomial which takes discrete variables such as {yellow, red, green} or {6.77, 3.45, 33.44}. Using DQM, encoding for discrete variable problems has become easier. The change from binary variables of BQM to discrete variables opens the door to solve new types of problems using a quantum computer. 
 The DQM function can be represented by a general form of:
 ```math
-$E(\bf{x})= \sum_{i=1}^N \sum_{u=1}^{n_i} a_{i,u} x_{i,u}+ \sum_{i=1}^N \sum_{j=i+1}^N \sum_{u=1}^{n_i} \sum_{v=1}^{n_j} b_{i,j,u,v} x_{i,u} x_{j,v}+ c%
+$$
+E(\bf{x})= \sum_{i=1}^N \sum_{u=1}^{n_i} a_{i,u} x_{i,u}+ \sum_{i=1}^N \sum_{j=i+1}^N \sum_{u=1}^{n_i} \sum_{v=1}^{n_j} b_{i,j,u,v} x_{i,u} x_{j,v}+ c
+$$
 ```
 where there are N discrete variables with  n_i cases each. 
 
