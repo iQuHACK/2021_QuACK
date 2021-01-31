@@ -37,6 +37,12 @@ Hybrid solvers include the use of both CPU and QPU to solve a problem. Hybrid so
 
 hard nurse constraint: no consecutive shifts for a nurse
 ```bash
+
+# G.add_edges_from([(0, 1), (1, 2),(2, 3), (4, 5),(5, 6), (6, 7), (8, 9),(9, 10),(10, 11)]) #edges_for_4
+# Parameters for hard nurse constraint
+# a is a positive correlation coefficient for implementing the hard nurse
+# constraint - value provided by Ikeda, Nakamura, Humble
+
 for p in G.nodes:
     dqm.add_variable(num_colors, label=p)
 for p in G.nodes:
